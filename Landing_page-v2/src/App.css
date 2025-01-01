@@ -1,10 +1,96 @@
 #root {
-  max-width: 1280px;
+  display: flex;
+  width: 100vw;
+  height: 100vw;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  background-color: #282d35;
 }
 
+.logtext {
+  padding-top: 31px;
+  height: 22.5px;
+  width: 122.39px;
+  margin-bottom: 0px;
+}
+
+.topbar {
+  align-items: start;
+  font-size: 22.25px;
+  padding-left: 26px;
+  color: #61dafb;
+  line-height: 26.93px;
+  font-weight: 700;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-shrink: 1;
+  height: 91px;
+  align-content: start;
+  background-color: #21222a;
+}
+
+.upper {
+  height: 91px;
+  padding-bottom: 1px;
+}
+
+.fact {
+  margin-left: 46px;
+  padding-block: 20px;
+  ::marker {
+    color: #61dafb;
+    font-size: 1em;
+    width: 9.61px;
+  }
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.context {
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+}
+
+.funfacts {
+  font-size: 39.6px;
+  font-weight: 700;
+  line-height: 42.27px;
+  margin-left: 27px;
+  margin-bottom: 36px;
+  display: flex;
+  text-align: start;
+}
+
+main {
+  display: flex;
+  padding-top: 41px;
+  flex-grow: 1;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: start;
+  background-image: url("./assets/react.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+ul {
+  text-align: left;
+}
+img {
+  padding-top: 29px;
+  margin-right: 10px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
